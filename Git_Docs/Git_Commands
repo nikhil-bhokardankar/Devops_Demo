@@ -1,0 +1,32 @@
+# Initialize the Git Repo
+    Git Init
+
+# To add file in Git Repo
+    git add <File Name>
+    git add .
+
+# To make 1st changes in Git repo
+    git commit -m "Comment"
+
+# To create new branch in Git
+    git branch <branch Name>
+
+# To list the branch in Git
+    git branch -l  >>list all branch in local git
+    git branch -a  >> local and remote branches
+
+# To checkout any branch 
+    git checkout <branch name>
+
+# To rename any branch
+    git branch -m <branch name>
+
+# To find the status and change status in Git
+    git status
+
+# To Connect to Github Repo
+    git remote add origin https://github.com/username/repository.git
+
+# To oush file in remote repo branch
+    git push -u origin <branch Name>
+
